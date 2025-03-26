@@ -1,0 +1,96 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        String A;
+        String B;
+        String C;
+        String D;
+        String E;
+        String F;
+
+        System.out.println("Welcome to the Subtracion Math Test!");
+        System.out.println("This test has Six Questions.");
+
+        System.out.println("Question Number One");
+        System.out.println("99 - 57");
+        A = sc.next();
+
+        if(A.equals("42")){
+            System.out.println("That is Correct!");
+        }
+
+        else{
+            System.out.println("That is not Correct.");
+        }
+
+        System.out.println("Question Two");
+        System.out.println("700 - 222");
+        B = sc.next();
+
+        if(B.equals("478")){
+            System.out.println("Correct! Well done!");
+        }
+
+        System.out.println("Question Number Two");
+        System.out.println("199 - 77");
+        C = sc.next();
+
+        if(C.equals("122")){
+            System.out.println("Correct!");
+        }
+        else{
+            System.out.println("The is incorrect");
+        }
+
+        System.out.println("Question Number Three");
+        System.out.println("99-22");
+        D = sc.next();
+
+        if(D.equals("77")){
+            System.out.println("Well done! That is Correct!");
+        }
+
+        else{
+            System.out.println("Incorrect");
+        }
+
+        System.out.println("Question Number Four");
+        System.out.println("1 - 99");
+        E = sc.next();
+
+        if(E.equals("-98")){
+            System.out.println("Correct!");
+        }
+
+        else{
+            System.out.println("That is Incorrect.");
+        }
+
+        System.out.println("Question Number Five");
+        System.out.println("988 - 777");
+        E = sc.next();
+
+        if(E.equals("211")){
+            System.out.println("Well Done!");
+        }
+
+        else{
+            System.out.println("Sorry that is Incorrect");
+        }
+
+        System.out.println("Question Number Six");
+        System.out.println("888 - 222");
+        F = sc.next();
+
+        if(F.equals("666")){
+            System.out.println("That is Correct!");
+        }
+
+        else{
+            System.out.println("Sorry, that is wrong.");
+        }
+
+        System.out.println("That is the end of the test. Well Done!");
+    }
+}
