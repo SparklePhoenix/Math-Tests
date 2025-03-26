@@ -1,0 +1,89 @@
+import java.util.Scanner;
+public class FunProject9
+{
+     public static void main(String[] args){
+        Scanner sc = new Scanner (System.in);
+
+        String N;
+        String E;
+        String W;
+        String A;
+        String B;
+        String C;
+
+        System.out.println("This is a Math Test that has Six Questions.");
+        System.out.println("It is up to you to guess the answer.");
+
+        System.out.println("Question Number One");
+        System.out.println("155 + 166");
+        N = sc.next();
+        if(N.equals("321")){
+            System.out.println("Correct!");
+        }
+
+        else{
+            System.out.println("Sorry you are wrong. The answer was 321");
+        }
+
+        System.out.println("Question Number Two");
+        System.out.println("233 + 188");
+        E = sc.next();
+        if(E.equals("421")){
+            System.out.println("Correct!");
+
+        }
+
+        else{
+            System.out.println("Sorry that is incorrect.");
+        }
+
+        System.out.println("Question Number Three");
+        System.out.println("399 + 288");
+        W = sc.next();
+        if(W.equals("687")){
+            System.out.println("That is Correct!");
+        }
+
+        else{
+            System.out.println("That is incorrect.");
+        }
+
+        System.out.println("Question Number Four");
+        System.out.println("177 + 211");
+        A = sc.next();
+
+        if(A.equals("388")){
+            System.out.println("You are Correct!");
+        }
+
+        else{
+            System.out.println("Incorrect");
+        }
+
+        System.out.println("Question Number Five");
+        System.out.println("97 + 55");
+        B = sc.next();
+
+        if(B.equals("152")){
+            System.out.println("That answer is Correct!");
+        }
+
+        else{
+            System.out.println("That is not correct.");
+        }
+
+        System.out.println("Question Number Six");
+        System.out.println("88 + 77");
+        C = sc.next();
+
+        if(C.equals("165")){
+            System.out.println("That is Correct!");
+        }
+
+        else{
+            System.out.println("Sorry that is wrong.");
+        }
+
+        System.out.println("This is the end of the test. Well Done.");
+        }
+    }
