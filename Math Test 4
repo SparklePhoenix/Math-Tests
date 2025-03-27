@@ -1,0 +1,91 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+
+        String A;
+        String B;
+        String C;
+        String D;
+        String E;
+        String F;
+
+        System.out.println("Welcome to the Division Math Test.");
+        System.out.println("There are Six Questions");
+
+        System.out.println("Question Number One");
+        System.out.println("99 / 66");
+        A = sc.next();
+
+        if(A.equals("1.5")){
+            System.out.println("Correct!");
+        }
+
+        else{
+            System.out.println("Incorrect");
+        }
+
+        System.out.println("Question Number Two");
+        System.out.println("55 / 22");
+        B = sc.next();
+
+        if(B.equals("2.5")){
+            System.out.println("That is Correct!");
+        }
+
+        else{
+            System.out.println("Sorry that is Incorrect.");
+        }
+
+        System.out.println("Question Number Three");
+        System.out.println("77 / 55");
+        C = sc.next();
+
+        if(C.equals("1.4")){
+            System.out.println("Correct!");
+        }
+
+        else{
+            System.out.println("Incorrect");
+        }
+
+        System.out.println("Question Number Four");
+        System.out.println("111 / 22");
+        D = sc.next();
+
+        if(D.equals("5.04")){
+            System.out.println("Well Done");
+        }
+
+        else{
+            System.out.println("That is Not Correct");
+        }
+
+        System.out.println("Question Number Five");
+        System.out.println("888 / 666");
+        E = sc.next();
+
+        if(E.equals("1.33")){
+            System.out.println("Correct!");
+        }
+
+        else{
+            System.out.println("Incorrect");
+        }
+
+        System.out.println("Question Number Six");
+        System.out.println("444 / 333");
+        F = sc.next();
+
+        if(F.equals("1.33")){
+            System.out.println("That is Correct!");
+        }
+
+        else{
+            System.out.println("That is Incorrect.");
+        }
+
+        System.out.println("That is the end of the Math Test");
+        System.out.println("Well Done!");
+    }
+}
