@@ -1,0 +1,90 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+
+        String A;
+        String B;
+        String C;
+        String D;
+        String E;
+        String F;
+
+        System.out.println("Welcome to the Multiplication Math Test");
+        System.out.println("This Test has Six Questions");
+
+        System.out.println("Question Number One");
+        System.out.println("77 x 88");
+        A = sc.next();
+        
+        if(A.equals("6,776")){
+            System.out.println("Correct!");
+        }
+        
+        else{
+            System.out.println("That is Incorrect.");
+        }
+        
+        System.out.println("Question Number Two");
+        System.out.println("199 x 22");
+        B = sc.next();
+        
+        if(B.equals("4,378")){
+            System.out.println("That is Correct!");
+        }
+        
+        else{
+            System.out.println("Sorry that is incorrect.");
+        }
+        
+        System.out.println("Question Number Three");
+        System.out.println("33 x 44");
+        C = sc.next();
+        
+        if(C.equals("1,452")){
+            System.out.println("Correct!");
+        }
+        
+        else{
+            System.out.println("That is Incorrect.");
+        }
+        
+        System.out.println("Question Number Four");
+        System.out.println("88 x 77");
+        D = sc.next();
+        
+        if(D.equals("6,776")){
+            System.out.println("Correct! Well Done!");
+        }
+        
+        else{
+            System.out.println("Incorrect");
+        }
+        
+        System.out.println("Question Number Five");
+        System.out.println("22 x 11");
+        E = sc.next();
+        
+        if(E.equals("242")){
+            System.out.println("Correct!");
+        }
+        
+        else{
+            System.out.println("Sorry that is Incorrect.");
+        }
+        
+        System.out.println("Question Number Six");
+        System.out.println("55 x 66");
+        F = sc.next();
+        
+        if(F.equals("3,630")){
+            System.out.println("Correct!");
+        }
+        
+        else{
+            System.out.println("Incorrect");
+        }
+        
+        System.out.println("That is the end of the Math Test. Good Job!");
+    }
+}
